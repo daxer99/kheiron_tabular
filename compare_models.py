@@ -24,8 +24,8 @@ clf1 = setup(data=dataset,
              pca = False
             )
 
-# model_name = models().index.tolist()
-model_name = ['lightgbm', 'catboost', 'dummy']
+model_name = models().index.tolist()
+
 # print(model_name)
 for i in range(len(model_name)):
     model = create_model(model_name[i])
