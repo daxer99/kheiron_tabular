@@ -4,7 +4,7 @@ import numpy as np
 
 from pycaret.regression import load_model, predict_model
 
-model = load_model("/media/rodrigo/Data1/Kheiron/kheiron_tabular/kheiron-pipeline_tabular")
+model = load_model("kheiron-pipeline_tabular")
 
 def predict(model,input_df):
     predictions_df = predict_model(estimator=model, data=input_df)
