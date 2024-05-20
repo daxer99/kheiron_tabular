@@ -12,8 +12,10 @@ def predict(model,input_df):
     return predictions
 
 from PIL import Image
-image = Image.open("logo.png")
-image_horse = Image.open("birra_01.jpg")
+# image = Image.open("logo.png")
+# image_horse = Image.open("birra_01.jpg")
+image = Image.open("https://github.com/daxer99/kheiron_tabular/blob/main/streamlit/logo.png")
+image_horse = Image.open("https://github.com/daxer99/kheiron_tabular/blob/main/streamlit/birra_01.jpg")
 
 st.image(image,use_column_width=False)
 
