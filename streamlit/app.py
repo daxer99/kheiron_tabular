@@ -14,10 +14,10 @@ def predict(model,input_df):
 from PIL import Image
 # image = Image.open("logo.png")
 # image_horse = Image.open("birra_01.jpg")
-image = Image.open("kheiron_tabular/streamlit/logo.png")
-image_horse = Image.open("kheiron_tabular/streamlit/birra_01.jpg")
+# image = Image.open("https://github.com/daxer99/kheiron_tabular/blob/main/streamlit/logo.png")
+# image_horse = Image.open("https://github.com/daxer99/kheiron_tabular/blob/main/streamlit/birra_01.jpg")
 
-st.image(image,use_column_width=False)
+# st.image("https://github.com/daxer99/kheiron_tabular/blob/main/streamlit/logo.png",use_column_width=False)
 
 add_selectbox = st.sidebar.selectbox(
     "¿Como desea añadir datos a predecir?",
@@ -26,7 +26,7 @@ add_selectbox = st.sidebar.selectbox(
 st.sidebar.info("Esta aplicacion esta diseñada para predecir la capacidad de preñez de un embrion")
 st.sidebar.success("https://www.kheiron-biotech.com/")
 
-st.sidebar.image(image_horse)
+# st.sidebar.image("https://github.com/daxer99/kheiron_tabular/blob/main/streamlit/birra_01.jpg")
 
 st.title("Prediccion de estado de preñez")
 
