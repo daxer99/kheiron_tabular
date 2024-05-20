@@ -14,8 +14,8 @@ def predict(model,input_df):
 from PIL import Image
 # image = Image.open("logo.png")
 # image_horse = Image.open("birra_01.jpg")
-image = Image.open("kheiron_tabular/blob/main/streamlit/logo.png")
-image_horse = Image.open("kheiron_tabular/blob/main/streamlit/birra_01.jpg")
+image = Image.open("kheiron_tabular/streamlit/logo.png")
+image_horse = Image.open("kheiron_tabular/streamlit/birra_01.jpg")
 
 st.image(image,use_column_width=False)
 
