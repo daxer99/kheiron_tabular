@@ -5,7 +5,8 @@ from pycaret.regression import load_model, predict_model
 def predict(model,input_df):
     predictions_df = predict_model(estimator=model, data=input_df)
     predictions = predictions_df['prediction_label'][0]
-    return predictions
+    predictions_score = predictions_df['prediction_score'][0]
+    return predictions,predictions_score
 
 st.title("Prediccion de estado de preñez")
 
@@ -73,7 +74,8 @@ if add_selectbox == "Carga Online":
     if st.button("Predict"):
         output = predict(model,input_df)
 
-        st.success("Predict: "+output)
+        st.success("Predict: "+output[0])
+        st.success("Predict score: "+str(output[1]))
 
 if add_selectbox == "Desde Archivo":
     file_upload = st.file_uploader("Cargar archivo csv para predecir",type =["csv"])
