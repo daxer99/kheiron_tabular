@@ -52,7 +52,7 @@ if add_selectbox == "Carga Online":
     Dia_cambio_de_medio = st.number_input('Dia cambio de medio', 0,100,value=5)
     Dia_de_evolucion = st.selectbox("Dia de evolucion",["D7","D8","D9"])
     Grado_embrionario = st.selectbox("Grado embrionario",["I","II","III"])
-    Fragmentacion_celular = st.selectbox("Fragmentacion celular",["Si","No"])
+    Fragmentacion_celular = st.selectbox("Fragmentacion celular",["Sí","No"])
     Eje_menor = st.number_input('ø Eje menor', 0.0,1000.0,value=541.3)
     Eje_mayor = st.number_input('ø Eje mayor', 0.0,1000.0,value=564.6)
     Tipo_de_ovocito = st.selectbox("Tipo de ovocito",["Con ZP","Sin ZP"])
@@ -67,6 +67,20 @@ if add_selectbox == "Carga Online":
         '% Clivaje':Clivaje, 'Medio Placas del día':Medio_Placas_del_dia, 'Día cambio de medio':Dia_cambio_de_medio, 'Día de evolución':Dia_de_evolucion, 'Grado embrionario':Grado_embrionario,
         'Fragmentación celular':Fragmentacion_celular,  'ø Eje menor':Eje_menor, 'ø Eje mayor':Eje_mayor,
         'Tipo de ovocito':Tipo_de_ovocito, 'Tipo embrión':Tipo_embrion}
+    print(input_dict)
+
+    # input_dict = {
+    #     # 'Fecha Transferencia':Fecha_Transferencia, 'Fecha Producción':Fecha_Produccion, 'Fecha Descongelamiento':Fecha_Descongelamiento,
+    #     # 'Línea celular':Linea_celular, 'Lente objetivo':Lente_objetivo, 'Magnificación óptica':Magnificacion_optica, 'Yegua receptora N°':Yegua_receptora
+    #     'Tipo celular': "MSC-E", 'Días de cultivo celular': 7, '% Confluencia': 100,
+    #     'Cantidad de Pasajes bool': 0,
+    #     'Cantidad de Pasajes numeric': 1,
+    #     'Tiempo con bajo suero (DMEM 0,5% SFB) en horas': 120, 'Origen': "Local",
+    #     '% Maduración': 64.5299987792969, 'Calidad': "Sin observaciones",
+    #     '% Clivaje': 34.9099998474121, 'Medio Placas del día': "Global", 'Día cambio de medio': 5,
+    #     'Día de evolución': "D7", 'Grado embrionario': "III",
+    #     'Fragmentación celular': "No", 'ø Eje menor': None, 'ø Eje mayor': None,
+    #     'Tipo de ovocito': "Con ZP", 'Tipo embrión': "Fresco"}
 
     input_df = pd.DataFrame([input_dict])
     st.dataframe(input_df)
