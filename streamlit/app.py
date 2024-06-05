@@ -41,6 +41,7 @@ if add_selectbox == "Carga Online":
     Tipo_celular = st.selectbox("Tipo Celular",["MSC-E","FB-E"])
     Dias_de_cultivo_celular = st.number_input('Dias de cultivo celular', 0,100,value=7 )
     Confluencia = st.number_input('% Confluencia', 0,100,value=100)
+    st.text("Si la cantidad de pasajes es de la siguiente forma: ?+1, ingrese 1, de lo contrario ingrese 0")
     Cantidad_de_Pasajes_bool = st.number_input('Cantidad de Pasajes bool', 0,1,value=0)
     Cantidad_de_Pasajes_numeric = st.number_input('Cantidad de Pasajes numeric', 0,100,value=1)
     Tiempo_con_bajo_suero_DMEM_0_5_SFB_en_horas = st.number_input('Tiempo con bajo suero (DMEM 0,5% SFB) en horas', 0,1000,value=72)
@@ -67,7 +68,7 @@ if add_selectbox == "Carga Online":
         '% Clivaje':Clivaje, 'Medio Placas del día':Medio_Placas_del_dia, 'Día cambio de medio':Dia_cambio_de_medio, 'Día de evolución':Dia_de_evolucion, 'Grado embrionario':Grado_embrionario,
         'Fragmentación celular':Fragmentacion_celular,  'ø Eje menor':Eje_menor, 'ø Eje mayor':Eje_mayor,
         'Tipo de ovocito':Tipo_de_ovocito, 'Tipo embrión':Tipo_embrion}
-    print(input_dict)
+    # print(input_dict)
 
     # input_dict = {
     #     # 'Fecha Transferencia':Fecha_Transferencia, 'Fecha Producción':Fecha_Produccion, 'Fecha Descongelamiento':Fecha_Descongelamiento,
