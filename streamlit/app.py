@@ -2,6 +2,17 @@ import streamlit as st
 import pandas as pd
 from pycaret.regression import load_model, predict_model
 
+def convertir_cantidad_pasajes_bool(string):
+    if "?" in string:
+        return 1
+    else:
+        return 0
+def convertir_cantidad_pasajes_numeric(string):
+    if len(string) == 1:
+        return int(string)
+    elif len(string) == 3:
+        string = string.split("+")
+        return int(string[1])
 def predict(model,input_df):
     predictions_df = predict_model(estimator=model, data=input_df)
     predictions = predictions_df['prediction_label'][0]
@@ -15,17 +26,17 @@ add_selectbox = st.sidebar.selectbox(
     ("Carga Online","Desde Archivo"))
 
 add_selectbox_2 = st.sidebar.selectbox("Elija Modelo Predictor",
-    ("LDA","LR","RBFSVM"))
+    ("LDA","LR","MLP"))
 
 if add_selectbox_2 == "LDA":
-    model = load_model("lda")
+    model = load_model("lda_v2")
     st.sidebar.info("LDA info...")
 if add_selectbox_2 == "LR":
-    model = load_model("lr")
+    model = load_model("lr_v2")
     st.sidebar.info("LR info...")
-if add_selectbox_2 == "RBFSVM":
-    model = load_model("rbfsvm")
-    st.sidebar.info("RBFSVM info...")
+if add_selectbox_2 == "MLP":
+    model = load_model("mlp_v2")
+    st.sidebar.info("MLP info...")
 
 st.sidebar.header("Link plantilla de carga de datos a predecir (descargar como .csv)")
 st.sidebar.success("https://docs.google.com/spreadsheets/d/1n44gqgu6XjUDaVi4g51Ywhm3yRKPawT5I5I3DGB_4BM/edit?usp=sharing")
@@ -41,10 +52,21 @@ if add_selectbox == "Carga Online":
     Tipo_celular = st.selectbox("Tipo Celular",["MSC-E","FB-E"])
     Dias_de_cultivo_celular = st.number_input('Dias de cultivo celular', 0,100,value=7 )
     Confluencia = st.number_input('% Confluencia', 0,100,value=100)
-    st.markdown("**Cantidad de Pasajes bool:**")
-    st.markdown("Si es de la siguiente forma: **?+1**, ingrese **1**, de lo contrario ingrese **0**")
-    Cantidad_de_Pasajes_bool = st.number_input('Cantidad de Pasajes bool', 0,1,value=0)
-    Cantidad_de_Pasajes_numeric = st.number_input('Cantidad de Pasajes', 0,100,value=1)
+
+    Cantidad_de_Pasajes_bool = None
+    Cantidad_de_Pasajes_numeric = None
+    Cantidad_de_Pasajes = st.text_input("Cantidad de Pasajes",value="?+1")
+    if len(Cantidad_de_Pasajes) == 1:
+        Cantidad_de_Pasajes_bool = 0
+        Cantidad_de_Pasajes_numeric = int(Cantidad_de_Pasajes)
+    elif len(Cantidad_de_Pasajes) == 3:
+        Cantidad_de_Pasajes = Cantidad_de_Pasajes.split("+")
+        if Cantidad_de_Pasajes[0] == "?":
+            Cantidad_de_Pasajes_bool = 1
+        else:
+            Cantidad_de_Pasajes_bool = 0
+        Cantidad_de_Pasajes_numeric = int(Cantidad_de_Pasajes[1])
+
     Tiempo_con_bajo_suero_DMEM_0_5_SFB_en_horas = st.number_input('Tiempo con bajo suero (DMEM 0,5% SFB) en horas', 0,1000,value=72)
     Origen = st.selectbox("Origen",["Local","Extranjero"])
     Maduracion = st.number_input('% Maduracion', 0.0,100.0,value=63.37)
@@ -59,6 +81,7 @@ if add_selectbox == "Carga Online":
     Eje_mayor = st.number_input('ø Eje mayor', 0.0,1000.0,value=564.6)
     Tipo_de_ovocito = st.selectbox("Tipo de ovocito",["Con ZP","Sin ZP"])
     Tipo_embrion = st.selectbox("Tipo de embrion",["Fresco","Vitrificado"])
+    Dias_post_ovulacion = st.number_input('Días post-ovulación', 0,10,value=5)
 
     input_dict = {
         # 'Fecha Transferencia':Fecha_Transferencia, 'Fecha Producción':Fecha_Produccion, 'Fecha Descongelamiento':Fecha_Descongelamiento,
@@ -68,7 +91,7 @@ if add_selectbox == "Carga Online":
         'Tiempo con bajo suero (DMEM 0,5% SFB) en horas':Tiempo_con_bajo_suero_DMEM_0_5_SFB_en_horas, 'Origen':Origen, '% Maduración':Maduracion, 'Calidad':Calidad,
         '% Clivaje':Clivaje, 'Medio Placas del día':Medio_Placas_del_dia, 'Día cambio de medio':Dia_cambio_de_medio, 'Día de evolución':Dia_de_evolucion, 'Grado embrionario':Grado_embrionario,
         'Fragmentación celular':Fragmentacion_celular,  'ø Eje menor':Eje_menor, 'ø Eje mayor':Eje_mayor,
-        'Tipo de ovocito':Tipo_de_ovocito, 'Tipo embrión':Tipo_embrion}
+        'Tipo de ovocito':Tipo_de_ovocito, 'Tipo embrión':Tipo_embrion,'Días post-ovulación':Dias_post_ovulacion}
     # print(input_dict)
 
     # input_dict = {
@@ -98,5 +121,10 @@ if add_selectbox == "Desde Archivo":
 
     if file_upload is not None:
         data = pd.read_csv(file_upload)
+
+        data['Cantidad de Pasajes bool'] = data['Cantidad de Pasajes'].apply(convertir_cantidad_pasajes_bool)
+        data['Cantidad de Pasajes numeric'] = data['Cantidad de Pasajes'].apply(convertir_cantidad_pasajes_numeric)
+        data = data.drop('Cantidad de Pasajes', axis=1)
+
         predictions = predict_model(estimator=model, data = data)
         st.write(predictions)
