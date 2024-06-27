@@ -53,10 +53,7 @@ if add_selectbox == "Carga Online":
     Dias_de_cultivo_celular = st.number_input('Dias de cultivo celular', 0,100,value=7 )
     Confluencia = st.number_input('% Confluencia', 0,100,value=100)
 
-    # Cantidad_de_Pasajes_bool = None
-    # Cantidad_de_Pasajes_numeric = None
     Cantidad_de_Pasajes = st.text_input("Cantidad de Pasajes",value="?+1")
-
     if '+' in Cantidad_de_Pasajes:
         Cantidad_de_Pasajes = Cantidad_de_Pasajes.split("+")
         if Cantidad_de_Pasajes[0] == "?":
