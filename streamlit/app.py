@@ -53,19 +53,26 @@ if add_selectbox == "Carga Online":
     Dias_de_cultivo_celular = st.number_input('Dias de cultivo celular', 0,100,value=7 )
     Confluencia = st.number_input('% Confluencia', 0,100,value=100)
 
-    Cantidad_de_Pasajes_bool = None
-    Cantidad_de_Pasajes_numeric = None
+    # Cantidad_de_Pasajes_bool = None
+    # Cantidad_de_Pasajes_numeric = None
     Cantidad_de_Pasajes = st.text_input("Cantidad de Pasajes",value="?+1")
-    if len(Cantidad_de_Pasajes) == 1:
-        Cantidad_de_Pasajes_bool = 0
-        Cantidad_de_Pasajes_numeric = int(Cantidad_de_Pasajes)
-    elif len(Cantidad_de_Pasajes) == 3:
+
+    if '+' in Cantidad_de_Pasajes:
         Cantidad_de_Pasajes = Cantidad_de_Pasajes.split("+")
         if Cantidad_de_Pasajes[0] == "?":
             Cantidad_de_Pasajes_bool = 1
         else:
             Cantidad_de_Pasajes_bool = 0
-        Cantidad_de_Pasajes_numeric = int(Cantidad_de_Pasajes[1])
+        try:
+            Cantidad_de_Pasajes_numeric = int(Cantidad_de_Pasajes[1])
+        except ValueError:
+            Cantidad_de_Pasajes_numeric = 1
+    else:
+        Cantidad_de_Pasajes_bool = 0
+        try:
+            Cantidad_de_Pasajes_numeric = int(Cantidad_de_Pasajes)
+        except ValueError:
+            Cantidad_de_Pasajes_numeric = 1
 
     Tiempo_con_bajo_suero_DMEM_0_5_SFB_en_horas = st.number_input('Tiempo con bajo suero (DMEM 0,5% SFB) en horas', 0,1000,value=72)
     Origen = st.selectbox("Origen",["Local","Extranjero"])
