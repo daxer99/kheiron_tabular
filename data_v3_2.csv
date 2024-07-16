@@ -1,0 +1,181 @@
+Fecha Transferencia,Fecha Producción,Fecha Descongelamiento,Línea celular,Tipo celular,Días de cultivo celular,% Confluencia,Cantidad de Pasajes bool,Cantidad de Pasajes numeric,"Tiempo con bajo suero (DMEM 0,5% SFB) en horas",Origen,% Maduración,Calidad,% Clivaje,Medio Placas del día,Día cambio de medio,Día de evolución,Grado embrionario,Fragmentación celular,ø Eje menor,ø Eje mayor,Tipo de ovocito,Tipo embrión,Yegua receptora N°,Días post-ovulación,Preñez,Nacimientos
+23/8/2023,16/8/2023,10/8/2023,E9-Emiratos K367,FB-E,6,100,1,2,48,Extranjero,55.2,Sin observaciones,37.74,F12,5,D7,II,No,778.3,807.5,Con ZP,Fresco,205,5,Exitosa,EXITOSO
+24/8/2023,17/8/2023,9/8/2023,FINN LENTE K384,FB-E,8,100,0,2,72,Extranjero,56.06,Sin observaciones,50,F12,5,D7,II,No,751.2,765,Con ZP,Fresco,428 LV,4,Exitosa,EXITOSO
+24/8/2023,17/8/2023,9/8/2023,FINN LENTE K384,FB-E,8,100,0,2,72,Extranjero,56.06,Sin observaciones,50,F12,5,D7,II,No,722,724.3,Con ZP,Fresco,625,4,Exitosa,EXITOSO
+24/8/2023,16/8/2023,10/8/2023,E9-Emiratos K367,FB-E,6,100,1,2,48,Extranjero,55.2,Sin observaciones,37.74,F12,5,D8,II,Sí,730.7,737.9,Con ZP,Fresco,702,5,Exitosa,EXITOSO
+13/9/2023,6/9/2023,30/8/2023,WILSON K359,MSC-E,7,100,0,1,120,Local,53.94,Sin observaciones,41.84,F12,6,D7,II,No,804.5,890.3,Con ZP,Fresco,29,5,Exitosa,EXITOSO
+19/9/2023,12/9/2023,6/9/2023,L.D. TORO K001,MSC-E,6,100,0,1,96,Local,53.91,Feos,46.46,F12,6,D7,II,No,799.6,802.4,Con ZP,Fresco,398,4,Exitosa,EXITOSO
+20/9/2023,13/9/2023,6/9/2023,L.D. TORO K001,MSC-E,7,50,0,3,0,Local,40.84,Feos,40.26,Global,5,D7,II,No,809.9,815.7,Con ZP,Fresco,R97,5,Exitosa,EXITOSO
+21/9/2023,14/9/2023,6/9/2023,L.D. TORO K001,MSC-E,8,50,0,3,0,Local,49.28,Feos,38.3,Global,5,D7,II,No,737.2,830.3,Con ZP,Fresco,545,4,Exitosa,EXITOSO
+22/9/2023,14/9/2023,6/9/2023,L.D. TORO K001,MSC-E,8,50,0,3,0,Local,49.28,Feos,38.3,Global,5,D8,III,No,632.1,752,Con ZP,Fresco,567,5,Exitosa,EXITOSO
+28/9/2023,21/9/2023,13/9/2023,Cuartetera K230,MSC-E,8,100,0,1,72,Local,57.93,Sin observaciones,35.4,Global,5,D7,II,No,799.3,810.7,Con ZP,Fresco,320,4,Exitosa,EXITOSO
+28/9/2023,21/9/2023,13/9/2023,Cuartetera K230,MSC-E,8,100,0,1,72,Local,57.93,Sin observaciones,35.4,Global,5,D7,III,Sí,543.8,582.5,Con ZP,Fresco,209,4,Exitosa,EXITOSO
+4/10/2023,27/9/2023,20/9/2023,Urraca K347,FB-E,7,100,0,3,24,Extranjero,62.7,Sin observaciones,32.11,F12,5,D7,II,No,675.8,700.7,Con ZP,Fresco,371,5,Exitosa,EXITOSO
+5/10/2023,28/9/2023,21/9/2023,Open Suma K291,MSC-E,7,100,0,1,72,Local,63.37,Sin observaciones,37.38,F12,5,D7,III,Sí,576.3,620.8,Con ZP,Fresco,614,5,Exitosa,EXITOSO
+12/10/2023,5/10/2023,29/9/2023,Ro Shy Dandy K401,MSC-E,6,100,0,1,24,Local,57.17,Sin observaciones,49.58,F12,5,D7,II,No,870.1,870.7,Con ZP,Fresco,408,4,Exitosa,EXITOSO
+18/10/2023,11/10/2023,4/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,120,Local,64.53,Sin observaciones,34.91,Global,5,D7,I,No,,,Con ZP,Fresco,491,5,Exitosa,EXITOSO
+18/10/2023,11/10/2023,4/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,120,Local,64.53,Sin observaciones,34.91,Global,5,D7,II,No,,,Con ZP,Fresco,575,5,Exitosa,EXITOSO
+18/10/2023,11/10/2023,4/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,120,Local,64.53,Sin observaciones,34.91,Global,5,D7,II,No,,,Con ZP,Fresco,569,5,Exitosa,EXITOSO
+18/10/2023,11/10/2023,4/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,120,Local,64.53,Sin observaciones,34.91,Global,5,D7,II,No,,,Con ZP,Fresco,593,5,Exitosa,EXITOSO
+18/10/2023,11/10/2023,4/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,120,Local,64.53,Sin observaciones,34.91,Global,5,D7,II,No,,,Con ZP,Fresco,710,5,Exitosa,EXITOSO
+18/10/2023,11/10/2023,4/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,120,Local,64.53,Sin observaciones,34.91,Global,5,D7,II,No,,,Con ZP,Fresco,598 LV,5,Exitosa,EXITOSO
+18/10/2023,11/10/2023,4/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,120,Local,64.53,Sin observaciones,34.91,Global,5,D7,III,No,,,Con ZP,Fresco,580,5,Exitosa,EXITOSO
+19/10/2023,11/10/2023,4/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,120,Local,64.53,Sin observaciones,34.91,Global,5,D8,II,No,760.4,818.1,Con ZP,Fresco,384,4,Exitosa,EXITOSO
+19/10/2023,12/10/2023,5/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,72,Local,53.24,Sin observaciones,45.79,Global,5,D7,I,No,850,865.9,Con ZP,Fresco,549,4,Exitosa,EXITOSO
+19/10/2023,12/10/2023,5/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,72,Local,53.24,Sin observaciones,45.79,Global,5,D7,I,No,833.8,915.7,Con ZP,Fresco,342,4,Exitosa,EXITOSO
+19/10/2023,12/10/2023,5/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,72,Local,53.24,Sin observaciones,45.79,Global,5,D7,II,Sí,694.1,759.4,Con ZP,Fresco,662,4,Exitosa,EXITOSO
+19/10/2023,12/10/2023,5/10/2023,La Dolfina Roxy K184,MSC-E,7,100,0,1,72,Local,53.24,Sin observaciones,45.79,Global,5,D7,II,No,663.4,795,Con ZP,Fresco,275,4,Exitosa,EXITOSO
+25/10/2023,18/10/2023,11/10/2023,Salpicada K348,FB-E,7,100,0,3,48,Extranjero,61.31,Sin observaciones,40,Global,5,D7,II,No,765,782.4,Con ZP,Fresco,338 LV,5,Exitosa,SIN ÉXITO
+31/10/2023,24/10/2023,19/10/2023,Santa Ana K372,MSC-E,5,100,0,1,96,Local,58.85,Sin observaciones,50,Global,6,D7,II,No,858.4,879.1,Con ZP,Fresco,505,4,Exitosa,EXITOSO
+2/11/2023,25/10/2023,19/10/2023,Micky Plaza  K333,FB-E,6,100,0,1,48,Extranjero,61.68,Sin observaciones,40,Global,5,D8,II,No,802.7,811.9,Con ZP,Fresco,343,5,Exitosa,EXITOSO
+7/11/2023,31/10/2023,25/10/2023,Wonder Mask K400,MSC-E,6,100,0,1,24,Local,63.66,Sin observaciones,26.55,F12,6,D7,II,No,752.8,771.4,Con ZP,Fresco,289,5,Exitosa,EXITOSO
+7/11/2023,31/10/2023,25/10/2023,Wonder Mask K400,MSC-E,6,100,0,1,24,Local,63.66,Sin observaciones,26.55,F12,6,D7,II,Sí,731.2,812.4,Con ZP,Fresco,370,4,Exitosa,EXITOSO
+8/11/2023,31/10/2023,25/10/2023,Wonder Mask K400,MSC-E,6,100,0,1,24,Local,63.66,Sin observaciones,26.55,F12,6,D8,II,No,768.1,782.2,Con ZP,Fresco,1568,5,Exitosa,EXITOSO
+9/11/2023,31/10/2023,25/10/2023,Wonder Mask K400,MSC-E,6,100,0,1,24,Local,63.66,Sin observaciones,26.55,F12,6,D9,III,Sí,589.5,595.6,Con ZP,Fresco,419 LV,4,Exitosa,EXITOSO
+9/11/2023,2/11/2023,26/10/2023,Fina Chelsea K377,MSC-E,7,100,0,1,72,Local,64.42,Sin observaciones,36.84,F12,5,D7,II,No,678.7,684.1,Con ZP,Fresco,164,4,Exitosa,EXITOSO
+9/11/2023,2/11/2023,26/10/2023,Fina Chelsea K377,MSC-E,7,100,0,1,72,Local,64.42,Sin observaciones,36.84,F12,5,D7,II,No,724.9,761.5,Con ZP,Fresco,694,4,Exitosa,EXITOSO
+10/11/2023,2/11/2023,26/10/2023,Fina Chelsea K377,MSC-E,7,100,0,1,72,Local,64.42,Sin observaciones,36.84,F12,5,D8,III,Sí,618.6,672.2,Con ZP,Fresco,737,5,Exitosa,EXITOSO
+15/11/2023,8/11/2023,1/11/2023,Cuartetera K230,MSC-E,7,100,0,1,48,Local,64.31,Feos,63.16,Global,5,D7,II,Sí,670.8,732.2,Con ZP,Fresco,1569,5,Exitosa,EXITOSO
+16/11/2023,8/11/2023,1/11/2023,Cuartetera K230,MSC-E,7,100,0,1,48,Local,64.31,Feos,63.16,Global,5,D8,II,No,747.6,770.2,Con ZP,Fresco,528,4,Exitosa,EXITOSO
+16/11/2023,9/11/2023,1/11/2023,Marajá K351,MSC-E,8,100,0,1,72,Local,64.46,Sin observaciones,48.7,Global,5,D7,III,Sí,588.2,641.4,Con ZP,Fresco,206,4,Exitosa,EXITOSO
+21/11/2023,14/11/2023,8/11/2023,Show Down K375,MSC-E,6,100,0,1,24,Local,64.19,Sin observaciones,41.74,Global,6,D7,III,No,619.2,641,Con ZP,Fresco,264,4,Exitosa,EXITOSO
+22/11/2023,15/11/2023,8/11/2023,Federica K213,MSC-E,7,100,0,1,48,Local,59.18,Feos,58.82,Global,5,D7,II,No,773,780.8,Con ZP,Fresco,668,5,Exitosa,EXITOSO
+22/11/2023,15/11/2023,8/11/2023,Federica K213,MSC-E,7,100,0,1,48,Local,59.18,Feos,58.82,Global,5,D7,II,No,866.2,886.4,Con ZP,Fresco,650,5,Exitosa,EXITOSO
+22/11/2023,15/11/2023,8/11/2023,Federica K213,MSC-E,7,100,0,1,48,Local,59.18,Feos,58.82,Global,5,D7,II,No,855.2,860.4,Con ZP,Fresco,696,5,Exitosa,EXITOSO
+22/11/2023,15/11/2023,8/11/2023,Federica K213,MSC-E,7,100,0,1,48,Local,59.18,Feos,58.82,Global,5,D7,II,No,770.1,793.5,Con ZP,Fresco,082 LV,5,Exitosa,EXITOSO
+23/11/2023,15/11/2023,8/11/2023,Federica K213,MSC-E,7,100,0,1,48,Local,59.18,Feos,58.82,Global,5,D8,III,Sí,719.4,724.4,Con ZP,Fresco,595,5,Exitosa,EXITOSO
+23/11/2023,15/11/2023,8/11/2023,Federica K213,MSC-E,7,100,0,1,48,Local,59.18,Feos,58.82,Global,5,D8,II,No,865.6,870.1,Con ZP,Fresco,419,4,Exitosa,EXITOSO
+23/11/2023,15/11/2023,8/11/2023,Federica K213,MSC-E,7,100,0,1,48,Local,59.18,Feos,58.82,Global,5,D8,II,No,883.8,891.6,Con ZP,Fresco,564,5,Exitosa,EXITOSO
+23/11/2023,16/11/2023,9/11/2023,Banelco K373,MSC-E,7,100,0,1,72,Local,59.51,Feos,65.29,Global,5,D7,II,Sí,812.4,868.5,Con ZP,Fresco,475,4,Exitosa,EXITOSO
+23/11/2023,16/11/2023,9/11/2023,Banelco K373,MSC-E,7,100,0,1,72,Local,59.51,Feos,65.29,Global,5,D7,II,No,788.3,810.5,Con ZP,Fresco,703,4,Exitosa,EXITOSO
+23/11/2023,16/11/2023,9/11/2023,Banelco K373,MSC-E,7,100,0,1,72,Local,59.51,Feos,65.29,Global,5,D7,II,Sí,708.4,771.3,Con ZP,Fresco,339,4,Exitosa,EXITOSO
+23/11/2023,16/11/2023,9/11/2023,Banelco K373,MSC-E,7,100,0,1,72,Local,59.51,Feos,65.29,Global,5,D7,II,Sí,665.6,723.4,Con ZP,Fresco,386,4,Exitosa,EXITOSO
+23/11/2023,16/11/2023,9/11/2023,Banelco K373,MSC-E,7,100,0,1,72,Local,59.51,Feos,65.29,Global,5,D7,II,No,762.4,770.5,Con ZP,Fresco,3474,4,Exitosa,EXITOSO
+24/11/2023,16/11/2023,9/11/2023,Banelco K373,MSC-E,7,100,0,1,72,Local,59.51,Feos,65.29,Global,5,D8,II,No,904.1,907.4,Con ZP,Fresco,1572,5,Exitosa,EXITOSO
+24/11/2023,16/11/2023,9/11/2023,Banelco K373,MSC-E,7,100,0,1,72,Local,59.51,Feos,65.29,Global,5,D8,II,No,774.8,783.6,Con ZP,Fresco,664,5,Exitosa,EXITOSO
+24/11/2023,16/11/2023,9/11/2023,Banelco K373,MSC-E,7,100,0,1,72,Local,59.51,Feos,65.29,Global,5,D8,II,No,810.2,821.1,Con ZP,Fresco,500,5,Exitosa,EXITOSO
+24/11/2023,16/11/2023,9/11/2023,Banelco K373,MSC-E,7,100,0,1,72,Local,59.51,Feos,65.29,Global,5,D8,II,Sí,773.9,774.6,Con ZP,Fresco,224,5,Exitosa,EXITOSO
+29/11/2023,22/11/2023,15/11/2023,Royal Power K352,MSC-E,7,100,0,1,48,Local,64.19,Sin observaciones,67.61,Global,6,D7,II,Sí,769.2,769.6,Con ZP,Fresco,622,5,Exitosa,EXITOSO
+29/11/2023,22/11/2023,15/11/2023,Royal Power K352,MSC-E,7,100,0,1,48,Local,64.19,Sin observaciones,67.61,Global,6,D7,II,No,824,848,Con ZP,Fresco,354,5,Exitosa,EXITOSO
+30/11/2023,22/11/2023,15/11/2023,Royal Power K352,MSC-E,7,100,0,1,48,Local,64.19,Sin observaciones,67.61,Global,6,D8,II,No,825.1,838,Con ZP,Fresco,271,4,Exitosa,EXITOSO
+5/12/2023,28/11/2023,22/11/2023,Joly Coeur K411,FB-E,6,100,1,1,24,Extranjero,61.32,Sin observaciones,44.44,F12,6,D7,II,No,810.4,820,Con ZP,Fresco,557,5,Exitosa,EXITOSO
+5/12/2023,28/11/2023,22/11/2023,Joly Coeur K411,FB-E,6,100,1,1,24,Extranjero,61.32,Sin observaciones,44.44,F12,6,D7,II,Sí,594.1,636.4,Con ZP,Fresco,752,5,Exitosa,EXITOSO
+6/12/2023,29/11/2023,23/11/2023,Jive K293,MSC-E,6,100,0,1,48,Local,62.48,Sin observaciones,53.33,F12,5,D7,I,No,856.9,866.8,Con ZP,Fresco,369,5,Exitosa,EXITOSO
+6/12/2023,29/11/2023,23/11/2023,Jive K293,MSC-E,6,100,0,1,48,Local,62.48,Sin observaciones,53.33,F12,5,D7,I,No,820.7,825,Con ZP,Fresco,274,5,Exitosa,EXITOSO
+6/12/2023,29/11/2023,23/11/2023,Jive K293,MSC-E,6,100,0,1,48,Local,62.48,Sin observaciones,53.33,F12,5,D7,II,No,795.6,826.1,Con ZP,Fresco,C 73,5,Exitosa,EXITOSO
+6/12/2023,29/11/2023,23/11/2023,Jive K293,MSC-E,6,100,0,1,48,Local,62.48,Sin observaciones,53.33,F12,5,D7,II,No,806.1,822.2,Con ZP,Fresco,501,5,Exitosa,EXITOSO
+7/12/2023,28/11/2023,22/11/2023,Joly Coeur K411,FB-E,6,100,1,1,24,Extranjero,61.32,Sin observaciones,44.44,F12,6,D9,I,No,884.1,904.5,Con ZP,Fresco,389,4,Exitosa,SIN ÉXITO
+7/12/2023,29/11/2023,23/11/2023,Jive K293,MSC-E,6,100,0,1,48,Local,62.48,Sin observaciones,53.33,F12,5,D8,I,No,908.8,916.3,Con ZP,Fresco,636,4,Exitosa,EXITOSO
+7/12/2023,29/11/2023,23/11/2023,Jive K293,MSC-E,6,100,0,1,48,Local,62.48,Sin observaciones,53.33,F12,5,D8,II,No,796.4,818,Con ZP,Fresco,487,4,Exitosa,EXITOSO
+7/12/2023,29/11/2023,23/11/2023,Jive K293,MSC-E,6,100,0,1,48,Local,62.48,Sin observaciones,53.33,F12,5,D8,III,Sí,662.1,716.3,Con ZP,Fresco,521,4,Exitosa,EXITOSO
+7/12/2023,30/11/2023,23/11/2023,Zippy K207,MSC-E,7,100,0,1,72,Local,58.27,Sin observaciones,37.21,F12,6,D7,I,No,833.3,839.8,Con ZP,Fresco,446,4,Exitosa,EXITOSO
+7/12/2023,30/11/2023,23/11/2023,Zippy K207,MSC-E,7,100,0,1,72,Local,58.27,Sin observaciones,37.21,F12,6,D7,II,Sí,837.4,845.6,Con ZP,Fresco,382,4,Exitosa,EXITOSO
+7/12/2023,30/11/2023,23/11/2023,Zippy K207,MSC-E,7,100,0,1,72,Local,58.27,Sin observaciones,37.21,F12,6,D7,II,No,780.6,799.6,Con ZP,Fresco,68,4,Exitosa,EXITOSO
+8/12/2023,30/11/2023,23/11/2023,Zippy K207,MSC-E,7,100,0,1,72,Local,58.27,Sin observaciones,37.21,F12,6,D8,III,No,,,Con ZP,Fresco,383,5,Exitosa,EXITOSO
+8/12/2023,30/11/2023,23/11/2023,Zippy K207,MSC-E,7,100,0,1,72,Local,58.27,Sin observaciones,37.21,F12,6,D8,II,No,,,Con ZP,Fresco,360,5,Exitosa,EXITOSO
+12/12/2023,5/12/2023,30/11/2023,Salpicada K348,FB-E,5,100,0,3,24,Extranjero,32.93,Sin observaciones,32.81,F12,6,D7,II,No,186.4,794,Con ZP,Fresco,169 LV,4,Exitosa,EXITOSO
+13/12/2023,6/12/2023,30/11/2023,Polo Pureza Edit K119,MSC-E,6,100,0,5,24,Local,39.61,Sin observaciones,29.03,F12,5,D7,II,Sí,685.3,714.6,Con ZP,Fresco,57,5,Exitosa,EXITOSO
+14/12/2023,7/12/2023,30/11/2023,Polo Pureza Edit K119,MSC-E,7,100,0,5,48,Local,34.62,Sin observaciones,33.33,F12,5,D7,II,No,864,957.2,Con ZP,Fresco,515,4,Exitosa,EXITOSO
+14/12/2023,7/12/2023,30/11/2023,Polo Pureza Edit K119,MSC-E,7,100,0,5,48,Local,34.62,Sin observaciones,33.33,F12,5,D7,II,No,728,728.1,Con ZP,Fresco,45,4,Exitosa,EXITOSO
+14/12/2023,6/12/2023,30/11/2023,Polo Pureza Edit K119,MSC-E,6,100,0,5,24,Local,39.61,Sin observaciones,29.03,F12,5,D8,III,Sí,687.3,742.4,Con ZP,Fresco,541,4,Exitosa,EXITOSO
+15/12/2023,7/12/2023,30/11/2023,Polo Pureza Edit K119,MSC-E,7,100,0,5,48,Local,34.62,Sin observaciones,33.33,F12,5,D8,II,No,852.6,861.5,Con ZP,Fresco,704,5,Exitosa,EXITOSO
+15/12/2023,7/12/2023,30/11/2023,Polo Pureza Edit K119,MSC-E,7,100,0,5,48,Local,34.62,Sin observaciones,33.33,F12,5,D8,III,Sí,703.8,725.9,Con ZP,Fresco,481 LV,5,Exitosa,EXITOSO
+19/12/2023,12/12/2023,6/12/2023,Soviética K265,MSC-E,6,100,0,1,24,Local,62,Sin observaciones,39.78,F12,6,D7,II,No,780.8,816.6,Con ZP,Fresco,393,4,Exitosa,EXITOSO
+21/12/2023,14/12/2023,7/12/2023,Urraca K347,FB-E,7,95,0,3,72,Extranjero,54.71,Sin observaciones,51.76,F12,5,D7,II,Sí,615.2,631,Con ZP,Fresco,552,4,Exitosa,EXITOSO
+21/12/2023,14/12/2023,7/12/2023,Urraca K347,FB-E,7,95,0,3,72,Extranjero,54.71,Sin observaciones,51.76,F12,5,D7,II,Sí,628.3,635.2,Con ZP,Fresco,180,4,Exitosa,EXITOSO
+21/12/2023,14/12/2023,7/12/2023,Urraca K347,FB-E,7,95,0,3,72,Extranjero,54.71,Sin observaciones,51.76,F12,5,D7,II,Sí,670.3,709,Con ZP,Fresco,2,4,Exitosa,EXITOSO
+21/12/2023,14/12/2023,6/12/2023,Cornet Du Lys K414,FB-E,8,100,0,1,72,Extranjero,54.71,Sin observaciones,41.07,F12,5,D7,II,Sí,770.2,783.8,Con ZP,Fresco,261,4,Exitosa,EXITOSO
+27/12/2023,20/12/2023,13/12/2023,A2 EMIRATOS K338,MSC-E,7,100,0,1,120,Extranjero,59.17,Sin observaciones,51,F12,5,D7,II,No,806.8,815.8,Con ZP,Fresco,376,5,Exitosa,EXITOSO
+27/12/2023,20/12/2023,13/12/2023,A2 EMIRATOS K338,MSC-E,7,100,0,1,120,Extranjero,59.17,Sin observaciones,51,F12,5,D7,II,No,739,741,Con ZP,Fresco,232,5,Exitosa,SIN ÉXITO
+27/12/2023,20/12/2023,13/12/2023,A2 EMIRATOS K338,MSC-E,7,100,0,1,120,Extranjero,59.17,Sin observaciones,51,F12,5,D7,II,Sí,709.9,782.9,Con ZP,Fresco,638,5,Exitosa,EXITOSO
+28/12/2023,20/12/2023,13/12/2023,A2 EMIRATOS K338,MSC-E,7,100,0,1,120,Extranjero,59.17,Sin observaciones,51,F12,5,D8,I,No,884,946.5,Con ZP,Fresco,568,4,Exitosa,EXITOSO
+28/12/2023,20/12/2023,13/12/2023,A2 EMIRATOS K338,MSC-E,7,100,0,1,120,Extranjero,59.17,Sin observaciones,51,F12,5,D8,II,No,807,856.4,Con ZP,Fresco,727,4,Exitosa,EXITOSO
+28/12/2023,20/12/2023,13/12/2023,A2 EMIRATOS K338,MSC-E,7,100,0,1,120,Extranjero,59.17,Sin observaciones,51,F12,5,D8,II,Sí,690.8,751.7,Con ZP,Fresco,613,4,Exitosa,EXITOSO
+3/01/2024,27/12/2023,20/12/2023,Oki Doki K412,FB-E,7,100,1,1,48,Extranjero,53.25,Sin observaciones,44.71,F12,5,D7,III,No,,,Con ZP,Fresco,364,5,Exitosa,EXITOSO
+3/01/2024,27/12/2023,20/12/2023,Oki Doki K412,FB-E,7,100,1,1,48,Extranjero,53.25,Sin observaciones,44.71,F12,5,D7,II,No,,,Con ZP,Fresco,359 LV,5,Exitosa,EXITOSO
+5/01/2024,27/12/2023,20/12/2023,Oki Doki K412,FB-E,7,100,1,1,48,Extranjero,56.5,Sin observaciones,44.71,F12,5,D9,III,No,,,Con ZP,Fresco,89,4,Exitosa,EXITOSO
+07/02/2024,30/1/2024,25/1/2024,Cuartetera K230,MSC-E,5,100,0,1,24,Local,54.06,Sin observaciones,50,F12,6,D8,II,No,774.4,778.5,Con ZP,Fresco,404,5,Exitosa,EXITOSO
+8/02/2024,1/2/2024,24/1/2024,S3 Dubai K290,MSC-E,8,85,0,2,24,Extranjero,64.41,Sin observaciones,54.02,F12,5,D7,III,Sí,525.6,558.5,Con ZP,Fresco,407,4,Exitosa,EXITOSO
+13/02/2024,6/2/2024,1/2/2024,WILSON K359,MSC-E,5,100,0,1,96,Local,54.41,Sin observaciones,27.56,F12,6,D7,II,No,,,Con ZP,Fresco,352,5,Exitosa,EXITOSO
+13/02/2024,6/2/2024,1/2/2024,WILSON K359,MSC-E,5,100,0,1,96,Local,54.41,Sin observaciones,27.56,F12,6,D7,II,No,,,Con ZP,Fresco,631,4,Exitosa,EXITOSO
+15/02/2024,8/2/2024,31/1/2024,Cuartetera K230,MSC-E,8,100,0,1,72,Local,65.35,Sin observaciones,45.61,F12,5,D7,II,No,776,870.5,Con ZP,Fresco,705,4,Exitosa,EXITOSO
+15/02/2024,8/2/2024,31/1/2024,Cuartetera K230,MSC-E,8,100,0,1,72,Local,65.35,Sin observaciones,45.61,F12,5,D7,II,No,762,776,Con ZP,Fresco,302,4,Exitosa,EXITOSO
+15/02/2024,8/2/2024,31/1/2024,Cuartetera K230,MSC-E,8,100,0,1,72,Local,65.35,Sin observaciones,45.61,F12,5,D7,II,No,849,875.1,Con ZP,Fresco,317,4,Exitosa,EXITOSO
+15/02/2024,8/2/2024,31/1/2024,Cuartetera K230,MSC-E,8,100,0,1,72,Local,65.35,Sin observaciones,45.61,F12,5,D7,II,No,855.3,896.2,Con ZP,Fresco,502,4,Exitosa,SIN ÉXITO
+15/02/2024,8/2/2024,31/1/2024,Cuartetera K230,MSC-E,8,100,0,1,72,Local,65.35,Sin observaciones,45.61,F12,5,D7,III,No,588.8,691.6,Con ZP,Fresco,420 LV,4,Exitosa,EXITOSO
+15/02/2024,8/2/2024,31/1/2024,Cuartetera K230,MSC-E,8,100,0,1,72,Local,65.35,Sin observaciones,45.61,F12,5,D7,III,Sí,673.3,764.4,Con ZP,Fresco,48,5,Exitosa,SIN ÉXITO
+16/02/2024,8/2/2024,31/1/2024,Cuartetera K230,MSC-E,8,100,0,1,72,Local,65.35,Sin observaciones,45.61,F12,5,D8,III,Sí,544.9,608,Con ZP,Fresco,539,5,Exitosa,EXITOSO
+27/02/2024,20/2/2024,14/2/2024,Quinta 027 K429,MSC-E,6,100,0,1,96,Local,56.76,Sin observaciones,53.27,F12,6,D7,II,No,819.1,835.5,Con ZP,Fresco,347,5,Exitosa,SIN ÉXITO
+27/02/2024,20/2/2024,14/2/2024,Quinta 027 K429,MSC-E,6,100,0,1,96,Local,56.76,Sin observaciones,53.27,F12,6,D7,III,Sí,604.8,677.3,Con ZP,Fresco,337,4,Exitosa,SIN ÉXITO
+27/02/2024,20/2/2024,14/2/2024,Quinta 027 K429,MSC-E,6,100,0,1,96,Local,56.76,Sin observaciones,53.27,F12,6,D7,III,Sí,484.1,570.3,Con ZP,Fresco,335,5,Exitosa,SIN ÉXITO
+28/02/2024,20/2/2024,14/2/2024,Quinta 027 K429,MSC-E,6,100,0,1,96,Local,56.76,Sin observaciones,53.27,F12,6,D8,III,No,622.2,636,Con ZP,Fresco,242,5,Exitosa,EXITOSO
+28/02/2024,20/2/2024,14/2/2024,Quinta 027 K429,MSC-E,6,100,0,1,96,Local,56.76,Sin observaciones,53.27,F12,6,D8,III,Sí,491.8,554.9,Con ZP,Fresco,B98,5,Exitosa,SIN ÉXITO
+06/03/2024,27/2/2024,22/2/2024,WILSON K359,MSC-E,5,100,0,1,96,Local,52.14,Sin observaciones,55.81,F12,6,D8,II,No,738,739,Con ZP,Fresco,418,5,Exitosa,EXITOSO
+07/03/2024,28/2/2024,22/2/2024,WILSON K359,MSC-E,6,100,0,1,72,Local,63.2,Sin observaciones,51.16,Global,5,D8,II,No,842.8,892.4,Con ZP,Fresco,612,5,Exitosa,EXITOSO
+08/03/2024,28/2/2024,22/2/2024,WILSON K359,MSC-E,6,100,0,1,72,Local,63.2,Sin observaciones,51.16,Global,5,D9,II,Sí,769,769.1,Con ZP,Fresco,420,5,Exitosa,EXITOSO
+08/03/2024,28/2/2024,22/2/2024,WILSON K359,MSC-E,6,100,0,1,72,Local,63.2,Sin observaciones,51.16,Global,5,D9,II,No,764.4,835.9,Con ZP,Fresco,434,5,Exitosa,EXITOSO
+08/03/2024,28/2/2024,22/2/2024,WILSON K359,MSC-E,6,100,0,1,72,Local,63.2,Sin observaciones,51.16,Global,5,D9,II,No,751.1,783,Con ZP,Fresco,672,5,Exitosa,SIN ÉXITO
+12/03/2024,5/3/2024,29/2/2024,Katanga K323,MSC-E,5,100,0,1,24,Local,67.65,Sin observaciones,77.11,Global,6,D7,III,Sí,570.5,690.8,Con ZP,Fresco,002 LV,4,Exitosa,SIN ÉXITO
+12/03/2024,5/3/2024,29/2/2024,Katanga K323,MSC-E,5,100,0,1,24,Local,67.65,Sin observaciones,77.11,Global,6,D7,III,Sí,592.6,604.8,Con ZP,Fresco,191,4,Exitosa,SIN ÉXITO
+12/03/2024,5/3/2024,29/2/2024,Katanga K323,MSC-E,5,100,0,1,24,Local,67.65,Sin observaciones,77.11,Global,6,D7,III,Sí,690.5,754,Con ZP,Fresco,570,5,Exitosa,EXITOSO
+13/03/2023,5/3/2024,29/2/2024,Katanga K323,MSC-E,5,100,0,1,24,Local,67.65,Sin observaciones,77.11,F12,6,D8,III,Sí,503.5,533.2,Con ZP,Fresco,543,5,Exitosa,SIN ÉXITO
+14/03/2024,6/3/2024,29/2/2024,Micky Plaza  K333,MSC-E,6,100,0,3,48,Extranjero,59.64,Sin observaciones,79.07,F12,5,D9,II,Sí,705.2,755.3,Con ZP,Fresco,332,5,Exitosa,EXITOSO
+14/03/2024,6/3/2024,29/2/2024,Micky Plaza  K333,MSC-E,6,100,0,3,48,Extranjero,59.64,Sin observaciones,79.07,F12,5,D9,II,No,806,806.6,Con ZP,Fresco,311,5,Exitosa,EXITOSO
+14/03/2024,6/3/2024,29/2/2024,Micky Plaza  K333,MSC-E,6,100,0,3,48,Extranjero,59.64,Sin observaciones,79.07,F12,5,D9,II,Sí,678.2,693.2,Con ZP,Fresco,747,5,Exitosa,EXITOSO
+19/03/2024,12/3/2024,7/3/2024,La Dolfina Música K416,MSC-E,5,100,0,1,24,Local,61.14,Sin observaciones,41.8,F12,6,D7,III,Sí,631.2,706.5,Con ZP,Fresco,D478,5,Exitosa,EXITOSO
+19/03/2024,12/3/2024,7/3/2024,La Dolfina Música K416,MSC-E,5,100,0,1,24,Local,61.14,Sin observaciones,41.8,F12,6,D7,III,Sí,635.5,655.5,Con ZP,Fresco,621,5,Exitosa,EXITOSO
+20/03/2024,13/3/2024,6/3/2024,Drogba K423,MSC-E,7,100,0,1,120,Local,68.87,Sin observaciones,40.54,F12,5,D7,II,No,808,812.4,Con ZP,Fresco,284,5,Exitosa,EXITOSO
+21/03/2024,13/3/2024,6/3/2024,Drogba K423,MSC-E,7,100,0,1,120,Local,68.87,Sin observaciones,40.54,F12,5,D8,II,No,750.4,782.8,Con ZP,Fresco,405,4,Exitosa,EXITOSO
+21/03/2024,13/3/2024,6/3/2024,Drogba K423,MSC-E,7,100,0,1,120,Local,68.87,Sin observaciones,40.54,F12,5,D8,II,No,742,791.2,Con ZP,Fresco,630,4,Exitosa,EXITOSO
+21/03/2024,13/3/2024,6/3/2024,Drogba K423,MSC-E,7,100,0,1,120,Local,68.87,Sin observaciones,40.54,F12,5,D8,II,No,782.2,824.9,Con ZP,Fresco,563,4,Exitosa,EXITOSO
+22/03/2024,13/3/2024,6/3/2024,Drogba K423,MSC-E,7,100,0,1,120,Local,68.87,Sin observaciones,40.54,F12,5,D9,II,Sí,563.6,763.4,Con ZP,Fresco,706,5,Exitosa,EXITOSO
+22/03/2024,13/3/2024,6/3/2024,Drogba K423,MSC-E,7,100,0,1,120,Local,68.87,Sin observaciones,40.54,F12,5,D9,III,Sí,579.3,587.1,Con ZP,Fresco,706,5,Exitosa,EXITOSO
+22/03/2024,13/3/2024,6/3/2024,Drogba K423,MSC-E,7,100,0,1,120,Local,68.87,Sin observaciones,40.54,F12,5,D9,II,Sí,,,Con ZP,Fresco,700,5,Exitosa,EXITOSO
+22/03/2024,13/3/2024,6/3/2024,Drogba K423,MSC-E,7,100,0,1,120,Local,68.87,Sin observaciones,40.54,F12,5,D9,II,No,796.4,809,Con ZP,Fresco,B2,5,Exitosa,EXITOSO
+22/03/2024,13/3/2024,6/3/2024,Drogba K423,MSC-E,7,100,0,1,120,Local,68.87,Sin observaciones,40.54,F12,5,D9,II,No,857.7,876,Con ZP,Fresco,54,5,Exitosa,EXITOSO
+26/03/2024,19/3/2024,14/3/2024,Show Down K375,MSC-E,5,100,0,1,24,Local,64.6,Sin observaciones,41.35,F12,6,D7,III,Sí,626.1,674,Con ZP,Fresco,A70,4,Exitosa,EXITOSO
+26/03/2024,19/3/2024,14/3/2024,Show Down K375,MSC-E,5,100,0,1,24,Local,64.6,Sin observaciones,41.35,F12,6,D7,III,No,631,652.1,Con ZP,Fresco,553,4,Exitosa,EXITOSO
+26/03/2024,19/3/2024,14/3/2024,Show Down K375,MSC-E,5,100,0,1,24,Local,64.6,Sin observaciones,41.35,F12,6,D7,III,Sí,390.7,609.7,Con ZP,Fresco,519,5,Exitosa,EXITOSO
+26/03/2024,19/3/2024,14/3/2024,Show Down K375,MSC-E,5,100,0,1,24,Local,64.6,Sin observaciones,41.35,F12,6,D7,III,Sí,561.4,644.6,Con ZP,Fresco,355,5,Exitosa,EXITOSO
+27/03/2024,19/3/2024,14/3/2024,Show Down K375,MSC-E,5,100,0,1,24,Local,64.6,Sin observaciones,41.35,F12,6,D8,III,Sí,620.4,670.4,Con ZP,Fresco,75,5,Exitosa,EXITOSO
+27/03/2024,20/3/24,14/3/24,E11 Emiratos K365,FB-E,6,100,0,3,24,Extranjero,59.5,Sin observaciones,30.43,F12,5,D7,II,No,727,736,Con ZP,Fresco,735,5,Exitosa,EXITOSO
+28/03/2024,21/3/24,13/3/2024,Sportivo K240 FB-E,FB-E,8,90,1,2,24,Local,61.65,Sin observaciones,43.33,F12,5,D7,III,Sí,631.1,718.3,Con ZP,Fresco,305,4,Exitosa,EXITOSO
+29/03/2024,21/3/24,13/3/2024,Sportivo K240 FB-E,FB-E,8,90,1,2,24,Local,61.65,Sin observaciones,43.33,F12,5,D8,III,No,,,Con ZP,Fresco,481,5,Exitosa,EXITOSO
+02/04/2024,26/3/24,21/3/24,Micky Plaza  K333,MSC-E,5,100,0,3,24,Extranjero,29.39,Sin observaciones,40.45,F12,6,D7,II,No,,,Con ZP,Fresco,494,5,Exitosa,EXITOSO
+02/04/2024,26/3/24,21/3/24,Micky Plaza  K333,MSC-E,5,100,0,3,24,Extranjero,29.39,Sin observaciones,40.45,F12,6,D7,III,No,,,Con ZP,Fresco,1575,5,Exitosa,EXITOSO
+02/04/2024,26/3/24,21/3/24,Micky Plaza  K333,MSC-E,5,100,0,3,24,Extranjero,29.39,Sin observaciones,40.45,F12,6,D7,III,No,,,Con ZP,Fresco,600,5,Exitosa,EXITOSO
+02/04/2024,26/3/24,21/3/24,Open Nerea K331,MSC-E,5,100,0,1,24,Local,29.39,Sin observaciones,31.25,F12,6,D7,III,No,,,Con ZP,Fresco,535,5,Exitosa,EXITOSO
+03/04/2024,26/3/24,21/3/24,Open Nerea K331,MSC-E,5,100,0,1,24,Local,29.39,Sin observaciones,31.25,F12,6,D8,III,No,725.9,729.5,Con ZP,Fresco,297,5,Exitosa,EXITOSO
+03/04/2024,26/3/24,21/3/24,Open Nerea K331,MSC-E,5,100,0,1,24,Local,29.39,Sin observaciones,31.25,F12,6,D8,III,No,646.5,722,Con ZP,Fresco,5,5,Exitosa,EXITOSO
+03/04/2024,26/3/24,21/3/24,Open Nerea K331,MSC-E,5,100,0,1,24,Local,29.39,Sin observaciones,31.25,F12,6,D8,III,No,475,532.6,Con ZP,Fresco,141,5,Exitosa,EXITOSO
+04/04/2024,28/3/24,21/3/24,C3 Emiratos K188,FB-E,7,100,0,2,72,Extranjero,66.47,Sin observaciones,48.39,F12,5,D7,II,No,825.8,828.2,Con ZP,Fresco,124,4,Exitosa,EXITOSO
+04/04/2024,27/3/24,20/3/24,Babel K422,FB-E,7,70,0,4,24,Local,59.47,Sin observaciones,39.05,F12,5,D8,III,Sí,670,684.3,Con ZP,Fresco,586 LV,4,Exitosa,EXITOSO
+04/04/2024,27/3/24,20/3/24,Babel K422,FB-E,7,70,0,4,24,Local,59.47,Sin observaciones,39.05,F12,5,D8,III,Sí,503.1,513.6,Con ZP,Fresco,514,4,Exitosa,EXITOSO
+05/04/2024,28/3/24,21/3/24,C3 Emiratos K188,FB-E,7,100,0,2,72,Extranjero,66.47,Sin observaciones,48.39,F12,5,D8,II,No,718.2,738.3,Con ZP,Fresco,748,5,Exitosa,EXITOSO
+05/04/2024,28/3/24,21/3/24,C3 Emiratos K188,FB-E,7,100,0,2,72,Extranjero,66.47,Sin observaciones,48.39,F12,5,D8,II,No,744,759,Con ZP,Fresco,644,5,Exitosa,EXITOSO
+09/04/2024,28/3/24,21/3/24,C3 Emiratos K188,FB-E,7,100,0,2,72,Extranjero,66.47,Sin observaciones,48.39,F12,5,D8,III,Sí,540.4,547,Con ZP,Vitrificado,676,4,Exitosa,EXITOSO
+09/04/2024,28/3/24,21/3/24,C3 Emiratos K188,FB-E,7,100,0,2,72,Extranjero,66.47,Sin observaciones,48.39,F12,5,D8,III,Sí,515.9,575.2,Con ZP,Vitrificado,461,4,Exitosa,EXITOSO
+09/04/2024,28/3/24,21/3/24,C3 Emiratos K188,FB-E,7,100,0,2,72,Extranjero,66.47,Sin observaciones,48.39,F12,5,D8,III,Sí,564.3,685.2,Con ZP,Vitrificado,461,4,Exitosa,EXITOSO
+09/04/2024,27/3/24,20/3/24,Babel K422,FB-E,7,70,0,4,24,Local,59.47,Sin observaciones,39.05,F12,5,D9,II,No,754.9,771.1,Con ZP,Vitrificado,381,5,Exitosa,EXITOSO
+11/04/2024,4/4/24,28/3/24,Mi Lucha Geisha K417,MSC-E,7,100,0,1,72,Local,54.11,Sin observaciones,41.62,F12,5,D7,II,Sí,852.7,861.3,Con ZP,Fresco,499,5,Exitosa,EXITOSO
+11/04/2024,4/4/24,28/3/24,Mi Lucha Geisha K417,MSC-E,7,100,0,1,72,Local,54.11,Sin observaciones,41.62,F12,5,D7,II,No,836,837.7,Con ZP,Fresco,217,4,Exitosa,EXITOSO
+11/04/2024,4/4/24,28/3/24,Mi Lucha Geisha K417,MSC-E,7,100,0,1,72,Local,54.11,Sin observaciones,41.62,F12,5,D7,III,No,780.1,784.9,Con ZP,Fresco,609,4,Exitosa,EXITOSO
+12/04/2024,4/4/24,28/3/24,Mi Lucha Geisha K417,MSC-E,7,100,0,1,72,Local,54.11,Sin observaciones,41.62,F12,5,D8,I,No,,,Con ZP,Fresco,739,5,Exitosa,EXITOSO
+8/9/2022,31/8/2022,23/8/2022,Matrix K358,MSC-E,8,100,0,1,96,Local,56.8,Sin observaciones,14,F12,5,D8,II,,,,Con ZP,Fresco,215,4,Exitosa,EXITOSO
+8/9/2022,1/9/2022,23/8/2022,Matrix K358,MSC-E,9,100,0,1,72,Local,50.7,Sin observaciones,34,F12,6,D7,II,,,,Con ZP,Fresco,626,4,Exitosa,EXITOSO
+22/9/2022,15/9/2022,6/9/2022,WILSON K359,MSC-E,9,100,0,2,48,Local,59,Sin observaciones,34,F12,5,D7,II,,,,Con ZP,Fresco,277,4,Exitosa,EXITOSO
+13/10/2022,6/10/2022,28/9/2022,Small Axe K335,MSC-E,8,100,1,2,72,Extranjero,58.4,Sin observaciones,50,F12,4,D7,II,,,,Con ZP,Fresco,367,5,Exitosa,EXITOSO
+19/10/2022,12/10/2022,6/10/2022,Sportivo K240,FB-E,6,90,1,2,24,Local,51.3,Sin observaciones,60,F12,5,D7,II,,,,Con ZP,Fresco,331,5,Exitosa,SIN ÉXITO
+1/11/2022,25/10/2022,19/10/2022,Gaucho K353,MSC-E,6,100,0,1,24,Local,56.5,Sin observaciones,62.5,F12,6,D7,II,,,,Con ZP,Fresco,212,5,Exitosa,EXITOSO
+10/11/2022,3/11/2022,26/10/2022,Milenaria K225,MSC-E,8,95,0,2,96,Local,60.23,Sin observaciones,45,F12,4,D7,II,,,,Con ZP,Fresco,435,4,Exitosa,EXITOSO
+15/11/2022,8/11/2022,2/11/2022,P1-Emiratos K366,FB-E,6,100,0,1,24,Extranjero,64.6,Sin observaciones,34,F12,6,D7,II,,,,Con ZP,Fresco,271,5,Exitosa,SIN ÉXITO
+17/11/2022,8/11/2022,2/11/2022,P1-Emiratos K366,FB-E,6,100,0,1,24,Extranjero,64.6,Sin observaciones,34,F12,6,D9,II,,,,Con ZP,Fresco,470,5,Exitosa,EXITOSO
+18/11/2022,10/11/2022,2/11/2022,E9-Emiratos K366,FB-E,8,100,0,1,72,Extranjero,55.1,Sin observaciones,42,F12,4,D8,II,,,,Con ZP,Fresco,359 LV,5,Exitosa,EXITOSO
+23/11/2022,16/11/2022,9/11/2022,E11-Emiratos K365,FB-E,7,100,1,2,96,Extranjero,59.7,Sin observaciones,41.7,F12,5,D7,III,,,,Con ZP,Fresco,366,5,Exitosa,EXITOSO
+24/11/2022,17/11/2022,9/11/2022,Latia Ramona K326,MSC-E,8,98,0,1,48,Local,57.8,Sin observaciones,56.4,F12,4,D7,II,,,,Con ZP,Fresco,216,4,Exitosa,EXITOSO
+24/11/2022,17/11/2022,9/11/2022,Latia Ramona K326,MSC-E,8,98,0,1,48,Local,57.8,Sin observaciones,56.4,F12,4,D7,II,,,,Con ZP,Fresco,524,4,Exitosa,EXITOSO
+8/12/2022,1/12/2022,23/11/2022,D1-Emiratos K369,FB-E,8,100,1,2,48,Extranjero,64.3,Sin observaciones,42.6,F12,6,D7,I,,,,Con ZP,Fresco,403,4,Exitosa,EXITOSO
+13/12/2022,6/12/2022,30/11/2022,L.D. TORO K001,MSC-E,6,100,1,2,96,Local,64.1,Sin observaciones,37,F12,6,D7,I,,,,Con ZP,Fresco,719,4,Exitosa,EXITOSO
+21/12/2022,14/12/2022,7/12/2022,Jive K293,MSC-E,7,100,0,1,48,Local,62.2,Sin observaciones,59,F12,5,D7,I,,,,Con ZP,Fresco,260,5,Exitosa,SIN ÉXITO
+21/12/2022,14/12/2022,7/12/2022,Jive K293,MSC-E,7,100,0,1,48,Local,62.2,Sin observaciones,59,F12,5,D7,II,,,,Con ZP,Fresco,587,5,Exitosa,EXITOSO
+25/1/2023,27/12/2022,22/12/2022,Belen K211,MSC-E,5,1,0,1,96,Local,57.3,Sin observaciones,0.47,Global,5,D8,II,,,,Con ZP,Vitrificado,724,5,Exitosa,EXITOSO
