@@ -27,10 +27,7 @@ clf1 = setup(data=dataset,
 # model_name = models().index.tolist()
 # print(model_name)
 # model_name = ['lr', 'knn', 'nb', 'dt', 'svm', 'rbfsvm', 'gpc', 'mlp', 'ridge', 'rf', 'qda', 'ada', 'gbc', 'lda', 'et', 'xgboost', 'lightgbm', 'catboost', 'dummy']
-# model_name = ['lr', 'knn', 'nb', 'dt', 'rbfsvm', 'gpc', 'mlp', 'rf', 'qda', 'ada', 'gbc', 'lda', 'et', 'xgboost', 'lightgbm', 'catboost', 'dummy']
-
-model_name = ['rf', 'qda', 'ada', 'gbc', 'lda', 'et', 'xgboost']
-
+model_name = ['lr', 'knn', 'nb', 'dt', 'rbfsvm', 'gpc', 'mlp', 'rf', 'qda', 'ada', 'gbc', 'lda', 'et', 'xgboost', 'lightgbm', 'catboost', 'dummy']
 
 for i in range(len(model_name)):
     model = create_model(model_name[i])

@@ -29,13 +29,13 @@ add_selectbox_2 = st.sidebar.selectbox("Elija Modelo Predictor",
     ("LDA","LR","MLP"))
 
 if add_selectbox_2 == "LDA":
-    model = load_model("lda_v2")
+    model = load_model("lda_v3")
     st.sidebar.info("LDA info...")
 if add_selectbox_2 == "LR":
-    model = load_model("lr_v2")
+    model = load_model("lr_v3")
     st.sidebar.info("LR info...")
 if add_selectbox_2 == "MLP":
-    model = load_model("mlp_v2")
+    model = load_model("mlp_v3")
     st.sidebar.info("MLP info...")
 
 st.sidebar.header("Link plantilla de carga de datos a predecir (descargar como .csv)")
@@ -81,8 +81,8 @@ if add_selectbox == "Carga Online":
     Dia_de_evolucion = st.selectbox("Dia de evolucion",["D7","D8","D9"])
     Grado_embrionario = st.selectbox("Grado embrionario",["I","II","III"])
     Fragmentacion_celular = st.selectbox("Fragmentacion celular",["Sí","No"])
-    Eje_menor = st.number_input('ø Eje menor', 0.0,1000.0,value=541.3)
-    Eje_mayor = st.number_input('ø Eje mayor', 0.0,1000.0,value=564.6)
+    # Eje_menor = st.number_input('ø Eje menor', 0.0,1000.0,value=541.3)
+    # Eje_mayor = st.number_input('ø Eje mayor', 0.0,1000.0,value=564.6)
     Tipo_de_ovocito = st.selectbox("Tipo de ovocito",["Con ZP","Sin ZP"])
     Tipo_embrion = st.selectbox("Tipo de embrion",["Fresco","Vitrificado"])
     Dias_post_ovulacion = st.number_input('Días post-ovulación', 0,10,value=5)
@@ -94,8 +94,7 @@ if add_selectbox == "Carga Online":
         'Cantidad de Pasajes bool':Cantidad_de_Pasajes_bool, 'Cantidad de Pasajes numeric':Cantidad_de_Pasajes_numeric,
         'Tiempo con bajo suero (DMEM 0,5% SFB) en horas':Tiempo_con_bajo_suero_DMEM_0_5_SFB_en_horas, 'Origen':Origen, '% Maduración':Maduracion, 'Calidad':Calidad,
         '% Clivaje':Clivaje, 'Medio Placas del día':Medio_Placas_del_dia, 'Día cambio de medio':Dia_cambio_de_medio, 'Día de evolución':Dia_de_evolucion, 'Grado embrionario':Grado_embrionario,
-        'Fragmentación celular':Fragmentacion_celular,  'ø Eje menor':Eje_menor, 'ø Eje mayor':Eje_mayor,
-        'Tipo de ovocito':Tipo_de_ovocito, 'Tipo embrión':Tipo_embrion,'Días post-ovulación':Dias_post_ovulacion}
+        'Fragmentación celular':Fragmentacion_celular,'Tipo de ovocito':Tipo_de_ovocito, 'Tipo embrión':Tipo_embrion,'Días post-ovulación':Dias_post_ovulacion}
     # print(input_dict)
 
     # input_dict = {
