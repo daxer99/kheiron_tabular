@@ -3,11 +3,16 @@ import pandas as pd
 from pycaret.regression import load_model, predict_model
 
 def convertir_cantidad_pasajes_bool(string):
+    if isinstance(string,int):
+        string = str(string)
     if "?" in string:
         return 1
     else:
         return 0
 def convertir_cantidad_pasajes_numeric(string):
+    if isinstance(string,int):
+        string = str(string)
+
     if len(string) == 1:
         return int(string)
     elif len(string) == 3:
